@@ -20,4 +20,4 @@
 
 ;; (anagrams-for "eagle" ["galee"])
 
-;; (check-match "eagle" "galea")
+(check-match "eagle" "galea")
