@@ -24,7 +24,7 @@
     (throw (IllegalArgumentException. "my exception message"))
     (last (take target (filter #(prime? %) (iterate inc 2))))))
 
-(nth-prime 10001)
+(nth-prime 10)
 ;;
 ;; (take 1 (filter #(= 0 (mod 11 %)) (iterate inc 2)))
 

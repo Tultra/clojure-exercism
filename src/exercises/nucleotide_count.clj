@@ -11,10 +11,6 @@
   (let [nucleotides (distinct(concat "AGCT" strand))
         freq nil]
        (apply merge (map #(assoc freq % (count-of-nucleotide-in-strand % strand)) nucleotides))))
-    ;; (for [l nucleotides]
-    ;;   (assoc freq (str l) (count-of-nucleotide-in-strand (str l) strand)))))
-
-;; (count-of-nucleotide-in-strand "GAAAATAC")
 
 (nucleotide-counts "AAAAGGGTT")
 
