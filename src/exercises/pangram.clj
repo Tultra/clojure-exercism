@@ -16,7 +16,7 @@
 )
 
 ;; (pangram? "the quick brown fox jumps over the lazy dog")
-(pangram? "the quick brown fox jumps over the lazy ")
+(frequencies (re-seq #"[a-z]" "the quick brown fox jumps over the lazy "))
 
 ;; (alphabet)
 ;;
