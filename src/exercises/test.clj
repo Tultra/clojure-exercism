@@ -1,11 +1,7 @@
 (ns exercises.test)
 
-(->> (int \0)
-     (- (int \1))
-     (- 8)
-     (* 8))
+;; criar funcao para retornar fatores de um numero qualquer
 
-(do (def x "hello world")
-    (def y (concat x ", Thiago"))
-    (println y)
-    y)
+(factors [n]
+         ; factorizes an integer n
+         )
